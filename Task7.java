@@ -1,8 +1,4 @@
 public class Task7 {
-	
-	public int boolToInt(boolean b) {
-		return b ? 1 : 0;
-	}
 
 	private boolean isSafe(int i, int j, int m, int n, boolean visited[][]) {
 		return i >= 0 && i < m && j >= 0 && j < n && !visited[i][j];
